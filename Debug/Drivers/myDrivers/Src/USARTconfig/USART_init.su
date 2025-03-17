@@ -1,0 +1,7 @@
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:12:6:USART_INIT	4	static
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:25:5:READ_USART2	4	static
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:30:6:READ_BUFFER	24	static
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:45:5:CONVERT_TO_INT	16	static
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:49:6:WRİTE_USART2	16	static
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:54:6:WRİTE_MESSAGE	24	static
+../Drivers/myDrivers/Src/USARTconfig/USART_init.c:61:6:WRİTE_VALUE	32	static
