@@ -27,7 +27,7 @@ void PWM_config() {
 	TIM2->CR1 |= (1 << 0);
 }
 
-void PWM_SET_DUTY_CYLE(uint8_t duty_cyle) {
-	TIM2 -> CCR1 = (duty_cyle * 10);
+void PWM_SET_DUTY_CYCLE(uint8_t duty_cycle) {
+	TIM2->CCR1 = duty_cycle * 10;
 }
 

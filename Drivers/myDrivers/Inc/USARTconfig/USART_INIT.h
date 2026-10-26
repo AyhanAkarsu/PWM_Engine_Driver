@@ -11,11 +11,11 @@
 
 void USART_INIT();
 int READ_USART2(void);
-void WRİTE_USART2(uint8_t data);
-void WRİTE_MESSAGE(char message[]);
+void WRITE_USART2(uint8_t data);
+void WRITE_MESSAGE(char message[]);
 void READ_BUFFER(char* buffer, int maxLength);
 int CONVERT_TO_INT(char* buffer);
-void WRİTE_VALUE(uint8_t value);
+void WRITE_VALUE(uint8_t value);
 
 
 #endif /* MYDRIVERS_INC_USARTCONFIG_USART_INIT_H_ */

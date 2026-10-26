@@ -76,7 +76,7 @@ int main(void)
   PWM_Init();
   PWM_config();
   USART_INIT();
-  uint8_t duty_cyle;
+  uint8_t duty_cycle;
   char buffer[4];
   /* USER CODE END Init */
 
@@ -97,15 +97,15 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  WRİTE_MESSAGE("\r\nMotor hizini ayarla: ");
+	  WRITE_MESSAGE("\r\nMotor hizini ayarla: ");
 	  READ_BUFFER(buffer, 4);
-	  duty_cyle = CONVERT_TO_INT(buffer);
-	  if(duty_cyle >= 0 && duty_cyle <= 100) {
-		  WRİTE_MESSAGE("\r\nGirilen deger: ");
-		  WRİTE_VALUE(duty_cyle);
-		  PWM_SET_DUTY_CYLE(duty_cyle);
+	  duty_cycle = CONVERT_TO_INT(buffer);
+	  if(duty_cycle <= 100) {
+		  WRITE_MESSAGE("\r\nGirilen deger: ");
+		  WRITE_VALUE(duty_cycle);
+		  PWM_SET_DUTY_CYCLE(duty_cycle);
 	  } else {
-		  WRİTE_MESSAGE("\r\nYanlis deger girdiniz!!");
+		  WRITE_MESSAGE("\r\nYanlis deger girdiniz!!");
 	  }
     /* USER CODE BEGIN 3 */
   }

@@ -11,6 +11,6 @@
 
 void PWM_Init();
 void PWM_config();
-void PWM_SET_DUTY_CYLE(uint8_t duty_cyle);
+void PWM_SET_DUTY_CYCLE(uint8_t duty_cycle);
 
 #endif /* MYDRIVERS_INC_PWM_INIT_H_ */
